@@ -589,7 +589,7 @@ string getFullSequence(string &fp)
 int main(int argc, char* argv[])
 {   
 
-    string full_seq_fp[2] = {"/igm/home/axr102/smith_waterman/human_g1k_v37_decoy.str", "/igm/home/axr102/smith_waterman/human_g1k_v37_decoy_r.str"};
+    string full_seq_fp[2] = {"path_to_forward", "path_to_reverse"};
     
     vector<future<string>> futures_full_seq;
 
