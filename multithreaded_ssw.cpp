@@ -602,7 +602,6 @@ int main(int argc, char* argv[])
     // long ref_len = ref_str_rev.length();
     // Load the whole reference into memory
     // ------------------------------------
-    // std::ifstream reference_file("/igm/home/axr102/smith_waterman/human_g1k_v37_decoy.str");
     // std::string ref_str;
     // reference_file.seekg(0, std::ios::end);
     // ref_str.reserve(reference_file.tellg());
